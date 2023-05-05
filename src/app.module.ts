@@ -17,6 +17,7 @@ import {Article} from '@modules/article/entities/article.entity';
 import {Statistic} from '@modules/statistic/entities/statistic.entity';
 import connectionCfg from '../ormconfig';
 
+
 @Module({
     imports: [
         TypeOrmModule.forRoot(connectionCfg),

@@ -2,8 +2,8 @@ import { IsNotEmpty, MaxLength, MinLength, Validate } from 'class-validator';
 import CustomUsername from '../create-user.decorator';
 export class CreateUserDto {
   @IsNotEmpty()
-  @MinLength(6, {
-    message: '用户名长度不能小于6位',
+  @MinLength(5, {
+    message: '用户名长度不能小于5位',
   })
   @MaxLength(18, {
     message: '用户名长度不能大于18位',

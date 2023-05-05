@@ -1,5 +1,6 @@
 {
-    "cSpell.enableFiletypes": [
-        "json"
-    ]
-}
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "tsconfig.json" :".env,.prettierrc,dockerfile,docker-compose.yaml,vhosts.conf,tsconfig.*.json,README.md,*.json,*.js,.prettier.config.json,.gitignore,.editorconfig,.eslintignore,.gitmodules,LICENSE,.env.development,.env.production,.env.staging"
+    }
+  }

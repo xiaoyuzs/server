@@ -29,6 +29,7 @@
     "@nestjs/mapped-types": "*",
     "@nestjs/passport": "^8.2.1",
     "@nestjs/platform-express": "^8.1.1",
+    "@nestjs/swagger": "^6.3.0",
     "@nestjs/typeorm": "^9.0.1",
     "@types/express": "^4.17.13",
     "bcryptjs": "^2.4.3",
@@ -51,6 +52,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.4.0",
+    "svg-captcha": "^1.4.0",
     "typeorm": "^0.3.10"
   },
   "devDependencies": {
@@ -63,8 +65,8 @@
     "@types/passport-jwt": "^3.0.6",
     "@types/passport-local": "^1.0.34",
     "@types/supertest": "^2.0.11",
-    "jest-environment-node": "^27.4.4",
     "jest": "^27.3.0",
+    "jest-environment-node": "^27.4.4",
     "nest-cli": "^0.0.5",
     "source-map-support": "^0.5.20",
     "supertest": "^6.1.6",
@@ -96,7 +98,6 @@
     "rootDir": "./",
     "testRegex": ".*\\.e2e-spec\\.ts$",
     "transform": {
-
       "^.+\\.(t|j)s$": "ts-jest"
     },
     "collectCoverageFrom": [
